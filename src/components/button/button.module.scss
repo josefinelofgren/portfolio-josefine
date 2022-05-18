@@ -1,0 +1,23 @@
+@use "../../stylesheets/design-template/colors.scss";
+@use "../../stylesheets/design-template/fonts.scss";
+@use "../../stylesheets/design-template/spacing.scss";
+
+button {
+  padding: spacing.$medium spacing.$large;
+  border-radius: spacing.$extraSmall;
+  transition: ease-in 0.2s;
+  letter-spacing: fonts.$letter-spacing-small;
+  text-transform: uppercase;
+  border: 1px solid;
+}
+
+.button--primary {
+  background-color: colors.$btn-bg-primary;
+  color: colors.$btn-text-primary;
+  border-color: colors.$btn-border-primary;
+
+  &:hover {
+    background-color: colors.$btn-bg-primary-hover;
+    color: colors.$btn-text-primary-hover;
+  }
+}

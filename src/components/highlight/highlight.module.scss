@@ -1,0 +1,11 @@
+@use "../../stylesheets/design-template/colors.scss";
+@use "../../stylesheets/design-template/fonts.scss";
+@use "../../stylesheets/design-template/spacing.scss";
+
+.highlight {
+    font-weight: fonts.$font-weight-bold;
+  }
+
+mark {
+  background-color: colors.$transparent;
+}

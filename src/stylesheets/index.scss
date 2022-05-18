@@ -1,0 +1,30 @@
+// use
+@use "./design-template/colors.scss";
+@use "./design-template/fonts.scss";
+@use "./design-template/spacing.scss";
+
+//imports
+@import "../components/card/card.module.scss";
+@import "../components/heading/heading.module.scss";
+@import "../components/button/button.module.scss";
+@import "../components/label/label.module.scss";
+@import "../components/footer/footer.module.scss";
+@import "../components/navigation/navigation.module.scss";
+@import "../components/header/header.module.scss";
+@import "../components/image/image.module.scss";
+@import "../components/highlight/highlight.module.scss";
+@import "../components/underline/underline.module.scss";
+
+body {
+    margin: 0;
+    font-family: 'Plus Jakarta Sans', "Nunito", 'Work Sans', sans-serif, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+  }
+
+.container-fluid {
+  padding: spacing.$body-wrap;
+}

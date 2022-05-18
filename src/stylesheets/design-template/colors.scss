@@ -1,0 +1,41 @@
+// colors
+$lightGrey: #f1f1f1;
+$middleGrey: #bebebe;
+$grey: #a0a0a0;
+$darkGrey: #707070;
+$almostBlack: #3d3d3d;
+$black: #202220;
+$silver: #a7a7a7;
+$almostWhite: #fafafa;
+$transparent: transparent;
+
+// background colors 
+$bg-primary: $almostWhite;
+$bg-secondary: $lightGrey;
+
+// text colors
+$text-color-primary: $almostBlack;
+$text-color-secondary: $darkGrey;
+$text-color-tertiary: $grey;
+
+$navbar-brand-color: $almostBlack;
+$navbar-link-color: $almostBlack;
+$navbar-link-color-hover: $darkGrey;
+$navbar-btn-color: $almostWhite;
+
+$sidebar-link-color: $almostWhite;
+$sidebar-link-color-hover: $silver;
+
+$footer-li-color-hover: $grey;
+
+// buttons
+$btn-bg-primary: $transparent;
+$btn-bg-primary-hover: $almostBlack;
+$btn-text-primary: $almostBlack;
+$btn-text-primary-hover: $almostWhite;
+$btn-border-primary: $middleGrey;
+$navbar-btn-bg: $almostBlack;
+
+// sidebar burger 
+$sidebar-burger-color: $almostBlack;
+$sidebar-burger-color-is-active: $almostWhite;

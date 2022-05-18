@@ -1,0 +1,14 @@
+@use "../../stylesheets/design-template/colors.scss";
+@use "../../stylesheets/design-template/fonts.scss";
+@use "../../stylesheets/design-template/spacing.scss";
+
+label {
+    text-transform: uppercase;
+    color: colors.$text-color-secondary;
+    background-color: colors.$lightGrey;
+    padding: spacing.$small;
+    margin: 0 spacing.$small spacing.$small 0; 
+    letter-spacing: fonts.$letter-spacing-small;
+    font-size: fonts.$label-font-size;
+    border-radius: spacing.$extraSmall;
+}

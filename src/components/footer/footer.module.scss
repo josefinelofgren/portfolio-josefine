@@ -1,0 +1,32 @@
+@use "../../stylesheets/design-template/colors.scss";
+@use "../../stylesheets/design-template/fonts.scss";
+@use "../../stylesheets/design-template/spacing.scss";
+
+.footer {
+
+    .footer-container {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+  
+    .footer-content {
+      max-width:700px;
+    }
+
+    a {
+        color: colors.$text-color-primary;
+    }
+
+    .contact-info {
+        display: inline-block !important;
+        font-size: fonts.$footer-li-font-size;
+        color: colors.$text-color-secondary;
+        width: max-content;
+        margin-bottom: spacing.$medium;
+    }
+
+    .copyright {
+        color: colors.$text-color-tertiary;
+        font-size: fonts.$footer-copyright-font-size;
+    }
+}

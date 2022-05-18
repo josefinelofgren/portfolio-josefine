@@ -1,0 +1,20 @@
+@use "../../stylesheets/design-template/colors.scss";
+@use "../../stylesheets/design-template/fonts.scss";
+@use "../../stylesheets/design-template/spacing.scss";
+
+article {
+    margin-bottom: spacing.$extraLarge;
+}
+
+ .card-image {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0 !important;
+    padding: spacing.$extraLarge spacing.$large;
+    margin-bottom: spacing.$medium !important;
+  } 
+
+  .card-text {
+    margin: spacing.$small 0 !important;
+  } 
